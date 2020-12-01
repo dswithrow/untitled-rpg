@@ -2,7 +2,7 @@ import pygame as pg
 from os import path
 import random
 from .. import prepare, tools, sprites
-from .lib import map_info, units
+from .constants import map_info, units
 
 
 class Town(tools._State):

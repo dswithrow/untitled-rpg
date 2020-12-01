@@ -1,7 +1,7 @@
 import pygame as pg, pygame_gui, random
 from os import path
 from .. import prepare, tools, sprites
-from .lib import items, map_info, dex, units, mechanics
+from .constants import items, map_info, dex, units, mechanics
 
 # aliases for legibility
 bestiary = dex.monsterDex

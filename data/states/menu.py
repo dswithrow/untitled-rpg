@@ -1,6 +1,6 @@
 import pygame as pg, pygame_gui
 from .. import prepare, tools, sprites
-from .lib import items, units, mechanics
+from .constants import items, units, mechanics
 
 gui = pygame_gui.elements
 select = pygame_gui.elements.ui_selection_list.UISelectionList
